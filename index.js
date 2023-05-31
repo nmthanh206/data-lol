@@ -2,6 +2,8 @@ const championsData = require("./champion.json").data;
 const itemsData = require("./items.json").data;
 const fs = require("fs");
 const run = async () => {
+   //api champions http://ddragon.leagueoflegends.com/cdn/13.10.1/data/en_US/champion.json
+   //api item champion http://ddragon.leagueoflegends.com/cdn/13.10.1/img/champion/Aatrox.png
    await fs.promises.writeFile(
       "convert-champion.json",
       JSON.stringify(
@@ -22,6 +24,8 @@ const run = async () => {
          )
       )
    );
+   //api items http://ddragon.leagueoflegends.com/cdn/13.10.1/data/en_US/item.json
+   //api item image http://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1001.png
    await fs.promises.writeFile(
       "convert-items.json",
       JSON.stringify(
