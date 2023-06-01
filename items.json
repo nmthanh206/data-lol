@@ -1,6 +1,6 @@
 {
    "type": "item",
-   "version": "13.10.1",
+   "version": "13.11.1",
    "basic": {
       "name": "",
       "rune": { "isrune": false, "tier": 1, "type": "red" },
@@ -542,7 +542,6 @@
             "3181",
             "6333",
             "6673",
-            "6675",
             "6695"
          ],
          "image": {
@@ -569,7 +568,7 @@
          "description": "<mainText><stats><attention>40</attention> Attack Damage</stats></mainText><br>",
          "colloq": ";bf",
          "plaintext": "Greatly increases Attack Damage",
-         "into": ["3026", "3031", "3072", "3161", "4403", "6671"],
+         "into": ["3026", "3031", "3072", "3161", "4403", "6671", "6675"],
          "image": {
             "full": "1038.png",
             "sprite": "item0.png",
@@ -2281,7 +2280,7 @@
       },
       "3012": {
          "name": "Chalice of Blessing",
-         "description": "<mainText><stats><attention>200</attention> Health<br><attention>50%</attention> Base Mana Regen</stats><br><li><passive>Harmony:</passive> Gain 25% Base Health Regeneration for every additional 25% Base Mana Regeneration.<br><br><flavorText>'These blessed waters still carry their power to the worthy.'</flavorText></mainText><br>",
+         "description": "<mainText><stats><attention>200</attention> Health<br><attention>50%</attention> Base Mana Regen</stats><br><li><passive>Harmony:</passive> Gain 25% Base Health Regeneration for every additional <scalemana>25% Base Mana Regeneration</scalemana>.<br><br><flavorText>'These blessed waters still carry their power to the worthy.'</flavorText></mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["1028", "1004"],
@@ -3513,7 +3512,12 @@
             "total": 3000,
             "sell": 2100
          },
-         "tags": ["Damage", "CriticalStrike", "NonbootsMovement"],
+         "tags": [
+            "Damage",
+            "CriticalStrike",
+            "AttackSpeed",
+            "NonbootsMovement"
+         ],
          "maps": { "11": true, "12": true, "21": true, "22": false },
          "stats": {
             "FlatPhysicalDamageMod": 30,
@@ -3525,7 +3529,7 @@
       },
       "3095": {
          "name": "Stormrazor",
-         "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>15%</attention> Attack Speed<br><attention>20%</attention> Critical Strike Chance</stats><br><li><passive>Energized:</passive> Moving and Attacking will generate an Energized Attack.<li><passive>Bolt:</passive> Your next Attack deals bonus damage.<br></mainText><br>",
+         "description": "<mainText><stats><attention>50</attention> Attack Damage<br><attention>15%</attention> Attack Speed<br><attention>20%</attention> Critical Strike Chance</stats><br><li><passive>Energized:</passive> Moving and Attacking will generate an Energized Attack.<li><passive>Bolt:</passive> Your next Attack deals bonus damage.<br></mainText><br>",
          "colloq": ";Windblade",
          "plaintext": "Tremendously empower other Energized effects.",
          "from": ["6670", "1018", "2015"],
@@ -3553,7 +3557,7 @@
          ],
          "maps": { "11": true, "12": true, "21": true, "22": false },
          "stats": {
-            "FlatPhysicalDamageMod": 55,
+            "FlatPhysicalDamageMod": 50,
             "FlatCritChanceMod": 0.2,
             "PercentAttackSpeedMod": 0.15
          },
@@ -3661,7 +3665,7 @@
       },
       "3107": {
          "name": "Redemption",
-         "description": "<mainText><stats><attention>250</attention> Health<br><attention>100%</attention> Base Mana Regen<br><attention>15%</attention> Heal and Shield Power</stats><br><br><active>Active -</active> <active>Intervention:</active> Target an area within. After 2.5 seconds, call down a beam of light to restore Health to allies and damage enemy champions.<br><li><passive>Harmony:</passive> Gain 25% Base Health Regeneration for every additional 25% Base Mana Regeneration.<br><br><rules>Item can be activated whilst dead. Damage and healing reduced by 50% if the target has recently been affected by another <active>Intervention</active>. Strength of level-scaling effects are based on the ally's level.</rules></mainText><br>",
+         "description": "<mainText><stats><attention>250</attention> Health<br><attention>100%</attention> Base Mana Regen<br><attention>15%</attention> Heal and Shield Power</stats><br><br><active>Active -</active> <active>Intervention:</active> Target an area within. After 2.5 seconds, call down a beam of light to restore Health to allies and damage enemy champions.<br><li><passive>Harmony:</passive> Gain 25% Base Health Regeneration for every additional <scalemana>25% Base Mana Regeneration</scalemana>.<br><br><rules>Item can be activated whilst dead. Damage and healing reduced by 50% if the target has recently been affected by another <active>Intervention</active>. Strength of level-scaling effects are based on the ally's level.</rules></mainText><br>",
          "colloq": ";",
          "plaintext": "Activate to heal allies and damage enemies in an area",
          "from": ["3012", "3114"],
@@ -4066,7 +4070,7 @@
       },
       "3124": {
          "name": "Guinsoo's Rageblade",
-         "description": "<mainText><stats><attention>30</attention> Attack Damage<br><attention>30</attention> Ability Power<br><attention>25%</attention> Attack Speed</stats><br><li><passive>Wrath:</passive> Attacks apply bonus damage <OnHit>On-Hit</OnHit>. Your Critical Strike Chance is converted into more.<li><passive>Seething Strike:</passive> Basic attacks grant bonus <attackSpeed>Attack Speed</attackSpeed>, stacking up to a cap. While fully stacked, every third Attack applies your <OnHit>On-Hit</OnHit> effects twice.</mainText><br>",
+         "description": "<mainText><stats><attention>30</attention> Attack Damage<br><attention>30</attention> Ability Power<br><attention>25%</attention> Attack Speed</stats><br><li><passive>Wrath:</passive> Attacks apply bonus damage <OnHit>On-Hit</OnHit>. Your Critical Strike Chance is converted into more.<li><passive>Seething Strike:</passive> Basic attacks grant bonus <attackSpeed>Attack Speed</attackSpeed>, stacking up to a cap. While fully stacked, every third Attack applies your <OnHit>On-Hit</OnHit> effects twice.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention>5%</attention> Armor Penetration and <attention>6%</attention> Magic Penetration.</mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["1052", "6677", "1037"],
@@ -4297,7 +4301,7 @@
       },
       "3142": {
          "name": "Youmuu's Ghostblade",
-         "description": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>18</attention> Lethality<br><attention>20</attention> Ability Haste</stats><br><br><active>Active -</active> <active>Wraith Step:</active> Gain Move Speed and Ghosting.<br><li><passive>Haunt:</passive> Gain up to 100 Spectral Shards while moving. Gain up to <speed> Move Speed</speed> out of champion combat based on the number of Spectral Shards. While at max shards, gain <scaleAD> Lethality</scaleAD>. Shards will reset 3 seconds after dealing damage to an enemy champion.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention></attention> Attack Damage. <br><br><rules><status>Ghosted</status> units ignore collision with other units.</rules></mainText><br>",
+         "description": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>18</attention> Lethality<br><attention>15</attention> Ability Haste</stats><br><br><active>Active -</active> <active>Wraith Step:</active> Gain Move Speed and Ghosting.<br><li><passive>Haunt:</passive> Gain up to 100 Spectral Shards while moving. Gain up to <speed> Move Speed</speed> out of champion combat based on the number of Spectral Shards. While at max Shards, gain <scaleAD> Lethality</scaleAD>. Shards will reset 3 seconds after dealing damage to an enemy champion.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention></attention> Attack Damage. <br><br><rules><status>Ghosted</status> units ignore collision with other units.</rules></mainText><br>",
          "colloq": ";lethality",
          "plaintext": "Activate to greatly increase Move Speed",
          "from": ["3134", "3133"],
@@ -4759,7 +4763,7 @@
       },
       "3190": {
          "name": "Locket of the Iron Solari",
-         "description": "<mainText><stats><attention>200</attention> Health<br><attention>30</attention> Armor<br><attention>30</attention> Magic Resist<br><attention>20</attention> Ability Haste</stats><br><br><active>Active -</active> <active>Devotion:</active> Grant nearby allies a <shield>Shield</shield>, decaying over time.<br><li><passive>Consecrate:</passive> Grant nearby allied champions Armor and <scaleMR>Magic Resist</scaleMR>. <br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items Armor and Magic Resist increase to <passive>Consecrate</passive>.<br><br></mainText><br>",
+         "description": "<mainText><stats><attention>200</attention> Health<br><attention>30</attention> Armor<br><attention>30</attention> Magic Resist<br><attention>20</attention> Ability Haste</stats><br><br><active>Active -</active> <active>Devotion:</active> Grant nearby allies a <shield>Shield</shield>, decaying over time.<br><li><passive>Consecrate:</passive> Grant nearby allied champions  <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR>. <br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items Armor and Magic Resist increase to <passive>Consecrate</passive>.<br><br></mainText><br>",
          "colloq": ";",
          "plaintext": "Activate to shield nearby allies from damage",
          "from": ["3023", "1033"],
@@ -4885,7 +4889,7 @@
       },
       "3222": {
          "name": "Mikael's Blessing",
-         "description": "<mainText><stats><attention>250</attention> Health<br><attention>100%</attention> Base Mana Regen<br><attention>15%</attention> Heal and Shield Power</stats><br><br><active>Active -</active> <active>Purify:</active> Restore Health and Remove all crowd control debuffs (except <status>Knockups</status> and <status>Suppression</status>) from an ally champion.<br><li><passive>Harmony:</passive> Gain 25% Base Health Regeneration for every additional 25% Base Mana Regeneration.</mainText><br>",
+         "description": "<mainText><stats><attention>250</attention> Health<br><attention>100%</attention> Base Mana Regen<br><attention>15%</attention> Heal and Shield Power</stats><br><br><active>Active -</active> <active>Purify:</active> Restore Health and Remove all crowd control debuffs (except <status>Knockups</status> and <status>Suppression</status>) from an ally champion.<br><li><passive>Harmony:</passive> Gain 25% Base Health Regeneration for every additional <scalemana>25% Base Mana Regeneration</scalemana>.</mainText><br>",
          "colloq": ";",
          "plaintext": "Activate to remove all disabling effects from an allied champion",
          "from": ["3012", "3114"],
@@ -6594,7 +6598,7 @@
       },
       "6620": {
          "name": "Echoes of Helia",
-         "description": "<mainText><stats><attention>30</attention> Ability Power<br><attention>200</attention> Health<br><attention>15</attention> Ability Haste<br><attention>125%</attention> Base Mana Regen</stats><br><li><passive>Soul Siphon:</passive> Damaging a champion grants a <passive>Soul Shard</passive>. Healing or shielding an ally consumes all <passive>Soul Shards</passive> to restore Health and deals magic damage per Shard to the nearest enemy champion.<br><li><passive>Dissonance:</passive> Gain <scaleAP>Ability Power</scaleAP> per <scaleMana> Base Mana Regeneration</scaleMana>. Disables Harmony.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention>Ability Haste.</attention><br></mainText><br>",
+         "description": "<mainText><stats><attention>30</attention> Ability Power<br><attention>200</attention> Health<br><attention>15</attention> Ability Haste<br><attention>125%</attention> Base Mana Regen</stats><br><li><passive>Soul Siphon:</passive> Damaging a champion grants a <passive>Soul Shard</passive>. Healing or Shielding an ally consumes all <passive>Soul Shards</passive> to restore Health and deals magic damage per Shard to the nearest enemy champion.<br><li><passive>Dissonance:</passive> Gain <scaleAP>Ability Power</scaleAP> per <scaleMana> Base Mana Regeneration</scaleMana>. Disables Harmony.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention>Ability Haste.</attention><br></mainText><br>",
          "colloq": "",
          "plaintext": "Damage low-health enemies to trigger a cursed explosion, dealing damage and slowing nearby foes",
          "from": ["3012", "4642"],
@@ -7111,7 +7115,7 @@
       },
       "6672": {
          "name": "Kraken Slayer",
-         "description": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>30%</attention> Attack Speed<br><attention>20%</attention> Critical Strike Chance</stats><br><li><passive>Bring It Down:</passive> Every third Attack deals additional magic damage. Repeated triggers on the same target increase the damage dealt.</mainText><br>",
+         "description": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>30%</attention> Attack Speed<br><attention>20%</attention> Critical Strike Chance</stats><br><li><passive>Bring It Down:</passive> Every third Attack deals additional physical damage. Repeated triggers on the same target increase the damage dealt.</mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["6670", "1018", "1043"],
@@ -7179,10 +7183,10 @@
       },
       "6675": {
          "name": "Navori Quickblades",
-         "description": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>20%</attention> Critical Strike Chance<br><attention>20</attention> Ability Haste</stats><br><li><passive>Transcendence:</passive>  Your Attacks reduce your non-Ultimate Ability cooldowns.<li><passive>Impermanence:</passive> Your abilities deal increased damage based on Critical Strike Chance.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention>5</attention> Ability Haste.</mainText><br>",
+         "description": "<mainText><stats><attention>65</attention> Attack Damage<br><attention>20%</attention> Critical Strike Chance<br><attention>15</attention> Ability Haste</stats><br><li><passive>Transcendence:</passive>  Your Attacks reduce your non-Ultimate Ability cooldowns.<li><passive>Impermanence:</passive> Your abilities deal increased damage based on Critical Strike Chance.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention>5</attention> Attack Damage.</mainText><br>",
          "colloq": "",
          "plaintext": "",
-         "from": ["3133", "1037", "1018"],
+         "from": ["1038", "3133", "1018"],
          "into": ["7032"],
          "image": {
             "full": "6675.png",
@@ -7194,7 +7198,7 @@
             "h": 48
          },
          "gold": {
-            "base": 825,
+            "base": 400,
             "purchasable": true,
             "total": 3400,
             "sell": 2380
@@ -7207,7 +7211,7 @@
             "AbilityHaste"
          ],
          "maps": { "11": true, "12": true, "21": true, "22": false },
-         "stats": { "FlatPhysicalDamageMod": 60, "FlatCritChanceMod": 0.2 },
+         "stats": { "FlatPhysicalDamageMod": 65, "FlatCritChanceMod": 0.2 },
          "effect": {
             "Effect1Amount": "0.5",
             "Effect2Amount": "1",
@@ -7243,7 +7247,7 @@
       },
       "6677": {
          "name": "Rageknife",
-         "description": "<mainText><stats><attention>25%</attention> Attack Speed</stats><br><li><passive>Wrath:</passive> Attacks apply <magicDamage>20 magic damage</magicDamage> <OnHit>On-Hit</OnHit>.<li><passive>Seething Strike:</passive> Basic attacks grant <attackSpeed>5% Attack Speed</attackSpeed>, stacking up to 3 times for a maximum of <attackSpeed>0 Attack Speed</attackSpeed>.</mainText><br>",
+         "description": "<mainText><stats><attention>25%</attention> Attack Speed</stats><br><li><passive>Wrath:</passive> Attacks apply <magicDamage>20 magic damage</magicDamage> <OnHit>On-Hit</OnHit>.<li><passive>Seething Strike:</passive> Basic attacks grant <attackSpeed>5% Attack Speed</attackSpeed>, stacking up to 3 times.</mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["1042", "1042"],
@@ -7362,7 +7366,6 @@
             "Damage",
             "Active",
             "CooldownReduction",
-            "NonbootsMovement",
             "ArmorPenetration",
             "AbilityHaste"
          ],
@@ -7480,7 +7483,6 @@
             "Damage",
             "Active",
             "CooldownReduction",
-            "NonbootsMovement",
             "ArmorPenetration",
             "AbilityHaste"
          ],
@@ -7628,7 +7630,7 @@
       },
       "7007": {
          "name": "Wyrmfallen Sacrifice",
-         "description": "<mainText><stats><ornnBonus>85</ornnBonus> Attack Damage<br><ornnBonus>40%</ornnBonus> Attack Speed<br><attention>20%</attention> Critical Strike Chance</stats><br><li><passive>Bring It Down:</passive> Every third Attack deals additional magic damage. Repeated triggers on the same target increase the damage dealt.</mainText><br>",
+         "description": "<mainText><stats><ornnBonus>85</ornnBonus> Attack Damage<br><ornnBonus>40%</ornnBonus> Attack Speed<br><attention>20%</attention> Critical Strike Chance</stats><br><li><passive>Bring It Down:</passive> Every third Attack deals additional physical damage. Repeated triggers on the same target increase the damage dealt.</mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["6672"],
@@ -8073,7 +8075,7 @@
       },
       "7019": {
          "name": "Reliquary of the Golden Dawn",
-         "description": "<mainText><stats><ornnBonus>400</ornnBonus> Health<br><ornnBonus>40</ornnBonus> Armor<br><ornnBonus>40</ornnBonus> Magic Resist<br><ornnBonus>25</ornnBonus> Ability Haste</stats><br><br><active>Active -</active> <active>Devotion:</active> Grant nearby allies a <shield>Shield</shield>, decaying over time.<br><li><passive>Consecrate:</passive> Grant nearby allied champions Armor and <scaleMR>Magic Resist</scaleMR>. <br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items Armor and Magic Resist increase to <passive>Consecrate</passive>.<br><br></mainText><br>",
+         "description": "<mainText><stats><ornnBonus>400</ornnBonus> Health<br><ornnBonus>40</ornnBonus> Armor<br><ornnBonus>40</ornnBonus> Magic Resist<br><ornnBonus>25</ornnBonus> Ability Haste</stats><br><br><active>Active -</active> <active>Devotion:</active> Grant nearby allies a <shield>Shield</shield>, decaying over time.<br><li><passive>Consecrate:</passive> Grant nearby allied champions  <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR>. <br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items Armor and Magic Resist increase to <passive>Consecrate</passive>.<br><br></mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["3190"],
@@ -8182,7 +8184,7 @@
       },
       "7022": {
          "name": "Seat of Command",
-         "description": "<mainText><stats><ornnBonus>70</ornnBonus> Ability Power<br><ornnBonus>300</ornnBonus> Health<br><ornnBonus>25</ornnBonus> Ability Haste</stats><br><li><passive>Coordinated Fire:</passive> Abilities that <status>Slow</status> or <status>Immobilize</status> a champion deal bonus damage and mark them. Ally champion damage detonates the mark, dealing additional damage and granting you both Move Speed. <br></mainText><br>",
+         "description": "<mainText><stats><ornnBonus>70</ornnBonus> Ability Power<br><ornnBonus>300</ornnBonus> Health<br><ornnBonus>25</ornnBonus> Ability Haste</stats><br><li><passive>Coordinated Fire:</passive> Abilities that <status>Slow</status> or <status>Immobilize</status> a champion deal <magicDamage>bonus magic damage</magicDamage> and marks them. Ally champion damage detonates the mark, dealing additional magic damage and granting you both Move Speed. <br><br></mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["4005"],
@@ -8427,7 +8429,7 @@
       },
       "7029": {
          "name": "Youmuu's Wake",
-         "description": "<mainText><stats><ornnBonus>75</ornnBonus> Attack Damage<br><ornnBonus>26</ornnBonus> Lethality<br><ornnBonus>25</ornnBonus> Ability Haste</stats><br><br><active>Active -</active> <active>Wraith Step:</active> Gain Move Speed and Ghosting.<br><li><passive>Haunt:</passive> Gain up to 100 Spectral Shards while moving. Gain up to <speed> Move Speed</speed> out of champion combat based on the number of Spectral Shards. While at max shards, gain <scaleAD> Lethality</scaleAD>. Shards will reset 3 seconds after dealing damage to an enemy champion.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention></attention> Attack Damage. <br><br><rules><status>Ghosted</status> units ignore collision with other units.</rules></mainText><br>",
+         "description": "<mainText><stats><ornnBonus>75</ornnBonus> Attack Damage<br><ornnBonus>26</ornnBonus> Lethality<br><ornnBonus>20</ornnBonus> Ability Haste</stats><br><br><active>Active -</active> <active>Wraith Step:</active> Gain Move Speed and Ghosting.<br><li><passive>Haunt:</passive> Gain up to 100 Spectral Shards while moving. Gain up to <speed> Move Speed</speed> out of champion combat based on the number of Spectral Shards. While at max Shards, gain <scaleAD> Lethality</scaleAD>. Shards will reset 3 seconds after dealing damage to an enemy champion.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention></attention> Attack Damage. <br><br><rules><status>Ghosted</status> units ignore collision with other units.</rules></mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["3142"],
@@ -8469,7 +8471,7 @@
       },
       "7030": {
          "name": "Seething Sorrow",
-         "description": "<mainText><stats><ornnBonus>40</ornnBonus> Attack Damage<br><ornnBonus>50</ornnBonus> Ability Power<br><ornnBonus>35%</ornnBonus> Attack Speed</stats><br><li><passive>Wrath:</passive> Attacks apply bonus damage <OnHit>On-Hit</OnHit>. Your Critical Strike Chance is converted into more.<li><passive>Seething Strike:</passive> Basic attacks grant bonus <attackSpeed>Attack Speed</attackSpeed>, stacking up to a cap. While fully stacked, every third Attack applies your <OnHit>On-Hit</OnHit> effects twice.</mainText><br>",
+         "description": "<mainText><stats><ornnBonus>40</ornnBonus> Attack Damage<br><ornnBonus>50</ornnBonus> Ability Power<br><ornnBonus>35%</ornnBonus> Attack Speed</stats><br><li><passive>Wrath:</passive> Attacks apply bonus damage <OnHit>On-Hit</OnHit>. Your Critical Strike Chance is converted into more.<li><passive>Seething Strike:</passive> Basic attacks grant bonus <attackSpeed>Attack Speed</attackSpeed>, stacking up to a cap. While fully stacked, every third Attack applies your <OnHit>On-Hit</OnHit> effects twice.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention>5%</attention> Armor Penetration and <attention>6%</attention> Magic Penetration.</mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["3124"],
@@ -8550,7 +8552,7 @@
       },
       "7032": {
          "name": "Flicker",
-         "description": "<mainText><stats><ornnBonus>80</ornnBonus> Attack Damage<br><attention>20%</attention> Critical Strike Chance<br><ornnBonus>30</ornnBonus> Ability Haste</stats><br><li><passive>Transcendence:</passive>  Your Attacks reduce your non-Ultimate Ability cooldowns.<li><passive>Impermanence:</passive> Your abilities deal increased damage based on Critical Strike Chance.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention>5</attention> Ability Haste.</mainText><br>",
+         "description": "<mainText><stats><ornnBonus>85</ornnBonus> Attack Damage<br><attention>20%</attention> Critical Strike Chance<br><ornnBonus>25</ornnBonus> Ability Haste</stats><br><li><passive>Transcendence:</passive>  Your Attacks reduce your non-Ultimate Ability cooldowns.<li><passive>Impermanence:</passive> Your abilities deal increased damage based on Critical Strike Chance.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention>5</attention> Attack Damage.</mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["6675"],
@@ -8579,7 +8581,7 @@
             "AbilityHaste"
          ],
          "maps": { "11": true, "12": true, "21": true, "22": false },
-         "stats": { "FlatPhysicalDamageMod": 80, "FlatCritChanceMod": 0.2 },
+         "stats": { "FlatPhysicalDamageMod": 85, "FlatCritChanceMod": 0.2 },
          "effect": {
             "Effect1Amount": "0.5",
             "Effect2Amount": "1",
@@ -8589,7 +8591,7 @@
       },
       "7033": {
          "name": "Cry of the Shrieking City",
-         "description": "<mainText><stats><ornnBonus>60</ornnBonus> Ability Power<br><ornnBonus>300</ornnBonus> Health<br><ornnBonus>20</ornnBonus> Ability Haste<br><ornnBonus>225%</ornnBonus> Base Mana Regen</stats><br><li><passive>Soul Siphon:</passive> Damaging a champion grants a <passive>Soul Shard</passive>. Healing or shielding an ally consumes all <passive>Soul Shards</passive> to restore Health and deals magic damage per Shard to the nearest enemy champion.<br><li><passive>Dissonance:</passive> Gain <scaleAP>Ability Power</scaleAP> per <scaleMana> Base Mana Regeneration</scaleMana>. Disables Harmony.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention>Ability Haste.</attention><br></mainText><br>",
+         "description": "<mainText><stats><ornnBonus>60</ornnBonus> Ability Power<br><ornnBonus>300</ornnBonus> Health<br><ornnBonus>20</ornnBonus> Ability Haste<br><ornnBonus>225%</ornnBonus> Base Mana Regen</stats><br><li><passive>Soul Siphon:</passive> Damaging a champion grants a <passive>Soul Shard</passive>. Healing or Shielding an ally consumes all <passive>Soul Shards</passive> to restore Health and deals magic damage per Shard to the nearest enemy champion.<br><li><passive>Dissonance:</passive> Gain <scaleAP>Ability Power</scaleAP> per <scaleMana> Base Mana Regeneration</scaleMana>. Disables Harmony.<br><br><rarityMythic>Mythic Passive:</rarityMythic> Grants all other <rarityLegendary>Legendary</rarityLegendary> items <attention>Ability Haste.</attention><br></mainText><br>",
          "colloq": "",
          "plaintext": "",
          "from": ["6620"],
