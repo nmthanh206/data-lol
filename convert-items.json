@@ -49,34 +49,6 @@
       "id": "3158"
    },
    {
-      "itemName": "Guardian's Horn",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/2051.png",
-      "isBoots": false,
-      "isLegendary": true,
-      "id": "2051"
-   },
-   {
-      "itemName": "Guardian's Orb",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3112.png",
-      "isBoots": false,
-      "isLegendary": true,
-      "id": "3112"
-   },
-   {
-      "itemName": "Guardian's Blade",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3177.png",
-      "isBoots": false,
-      "isLegendary": true,
-      "id": "3177"
-   },
-   {
-      "itemName": "Guardian's Hammer",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3184.png",
-      "isBoots": false,
-      "isLegendary": true,
-      "id": "3184"
-   },
-   {
       "itemName": "Syzygy",
       "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/7001.png",
       "isBoots": false,
@@ -266,214 +238,11 @@
       "id": "7033"
    },
    {
-      "itemName": "Doran's Shield",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1054.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1054"
-   },
-   {
-      "itemName": "Doran's Blade",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1055.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1055"
-   },
-   {
-      "itemName": "Doran's Ring",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1056.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1056"
-   },
-   {
-      "itemName": "Penetrating Bullets",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1500.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1500"
-   },
-   {
-      "itemName": "Fortification",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1501.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1501"
-   },
-   {
-      "itemName": "Reinforced Armor",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1502.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1502"
-   },
-   {
-      "itemName": "Warden's Eye",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1503.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1503"
-   },
-   {
-      "itemName": "Reinforced Armor",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1506.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1506"
-   },
-   {
-      "itemName": "Overcharged",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1507.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1507"
-   },
-   {
-      "itemName": "Anti-tower Socks",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1508.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1508"
-   },
-   {
-      "itemName": "Gusto",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1509.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1509"
-   },
-   {
-      "itemName": "Phreakish Gusto",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1510.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1510"
-   },
-   {
-      "itemName": "Super Mech Armor",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1511.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1511"
-   },
-   {
-      "itemName": "Super Mech Power Field",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1512.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1512"
-   },
-   {
-      "itemName": "Turret Plating",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1515.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1515"
-   },
-   {
-      "itemName": "Structure Bounty",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1516.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1516"
-   },
-   {
-      "itemName": "Structure Bounty",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1517.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1517"
-   },
-   {
-      "itemName": "Structure Bounty",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1518.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1518"
-   },
-   {
-      "itemName": "Structure Bounty",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1519.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1519"
-   },
-   {
-      "itemName": "OvererchargedHA",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1520.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1520"
-   },
-   {
-      "itemName": "Fortification",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1521.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1521"
-   },
-   {
-      "itemName": "Tower Power-Up",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/1522.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "1522"
-   },
-   {
-      "itemName": "Health Potion",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/2003.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "2003"
-   },
-   {
-      "itemName": "Total Biscuit of Everlasting Will",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/2010.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "2010"
-   },
-   {
       "itemName": "Steel Sigil",
       "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/2019.png",
       "isBoots": false,
       "isLegendary": false,
       "id": "2019"
-   },
-   {
-      "itemName": "Poro-Snax",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/2052.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "2052"
-   },
-   {
-      "itemName": "Elixir of Iron",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/2138.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "2138"
-   },
-   {
-      "itemName": "Elixir of Sorcery",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/2139.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "2139"
-   },
-   {
-      "itemName": "Elixir of Wrath",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/2140.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "2140"
-   },
-   {
-      "itemName": "Minion Dematerializer",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/2403.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "2403"
    },
    {
       "itemName": "Archangel's Staff",
@@ -509,20 +278,6 @@
       "isBoots": false,
       "isLegendary": false,
       "id": "3036"
-   },
-   {
-      "itemName": "Seraph's Embrace",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3040.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3040"
-   },
-   {
-      "itemName": "Muramana",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3042.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3042"
    },
    {
       "itemName": "Phantom Dancer",
@@ -693,13 +448,6 @@
       "id": "3119"
    },
    {
-      "itemName": "Fimbulwinter",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3121.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3121"
-   },
-   {
       "itemName": "Void Staff",
       "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3135.png",
       "isBoots": false,
@@ -777,27 +525,6 @@
       "id": "3222"
    },
    {
-      "itemName": "Scarecrow Effigy",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3330.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3330"
-   },
-   {
-      "itemName": "Farsight Alteration",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3363.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3363"
-   },
-   {
-      "itemName": "Your Cut",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3400.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3400"
-   },
-   {
       "itemName": "Ardent Censer",
       "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3504.png",
       "isBoots": false,
@@ -810,20 +537,6 @@
       "isBoots": false,
       "isLegendary": false,
       "id": "3508"
-   },
-   {
-      "itemName": "Kalista's Black Spear",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3599.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3599"
-   },
-   {
-      "itemName": "Kalista's Black Spear",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3600.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3600"
    },
    {
       "itemName": "Dead Man's Plate",
@@ -845,27 +558,6 @@
       "isBoots": false,
       "isLegendary": false,
       "id": "3814"
-   },
-   {
-      "itemName": "<rarityLegendary>Fire at Will</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3901.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3901"
-   },
-   {
-      "itemName": "<rarityLegendary>Death's Daughter</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3902.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3902"
-   },
-   {
-      "itemName": "<rarityLegendary>Raise Morale</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/3903.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "3903"
    },
    {
       "itemName": "Force of Nature",
@@ -999,13 +691,6 @@
       "isBoots": false,
       "isLegendary": false,
       "id": "7030"
-   },
-   {
-      "itemName": "Gangplank Placeholder",
-      "image": "https://ddragon.leagueoflegends.com/cdn/13.10.1/img/item/7050.png",
-      "isBoots": false,
-      "isLegendary": false,
-      "id": "7050"
    },
    {
       "itemName": "Anathema's Chains",

@@ -30,7 +30,10 @@ const run = async () => {
       "convert-items.json",
       JSON.stringify(
          Object.entries(itemsData)
-            .filter(([_, { maps, into }]) => maps["12"] && !into?.length)
+            .filter(
+               ([_, { maps, into, from }]) =>
+                  maps["12"] && !into?.length && from?.length
+            )
             .map(([imageCode, { description, name, from }]) => {
                const isBoots = (from && from.includes("1001")) || false;
                const isLegendary =
