@@ -1,7 +1,7 @@
 const championsData = require("./champion.json").data;
 const itemsData = require("./items.json").data;
 const groupItem = require("./group-item.json");
-const damageTag = require("./damage-tag.json");
+const damageTags = require("./damage-tag.json");
 const fs = require("fs");
 const findGroupItem = (itemName) => {
    const groupsName = [];
@@ -10,6 +10,15 @@ const findGroupItem = (itemName) => {
    }
    if (groupsName.length) return groupsName;
    return null;
+};
+const checkTankItem = (itemTag) => {
+   const groupsName = [];
+   for (const tag of itemTag) {
+      for (const damageTag of damageTags) {
+         if (tag === damageTag) return false;
+      }
+   }
+   return true;
 };
 const run = async () => {
    //api champions http://ddragon.leagueoflegends.com/cdn/13.11.1/data/en_US/champion.json
@@ -64,9 +73,7 @@ const run = async () => {
                   isLegendary,
                   id: imageCode,
                   groupName: findGroupItem(name),
-                  isNoDamage: !(
-                     tags.includes(damageTag[0]) || tags.includes(damageTag[1])
-                  ),
+                  isNoDamage: checkTankItem(tags),
                };
             })
             .sort((a, b) => b.isLegendary - a.isLegendary)

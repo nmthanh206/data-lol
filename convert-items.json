@@ -6,7 +6,7 @@
       "isLegendary": false,
       "id": "3006",
       "groupName": null,
-      "isNoDamage": true
+      "isNoDamage": false
    },
    {
       "itemName": "Boots of Swiftness",
@@ -285,7 +285,7 @@
       "isLegendary": true,
       "id": "7030",
       "groupName": null,
-      "isNoDamage": true
+      "isNoDamage": false
    },
    {
       "itemName": "Edge of Finality",
@@ -456,7 +456,7 @@
       "isLegendary": false,
       "id": "3085",
       "groupName": null,
-      "isNoDamage": true
+      "isNoDamage": false
    },
    {
       "itemName": "Statikk Shiv",
