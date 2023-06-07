@@ -1,0 +1,24 @@
+{
+   "Hydra": ["Ravenous Hydra", "Titanic Hydra"],
+   "Last Whisper": [
+      "Lord Dominik's Regards",
+      "Mortal Reminder",
+      "Serylda's Grudge"
+   ],
+   "Mana Charge": [
+      "Archangel's Staff",
+      "Fimbulwinter",
+      "Manamune",
+      "Muramana",
+      "Seraph's Embrace",
+      "Winter's Approach"
+   ],
+   "Lifeline": [
+      "Archangel's Staff",
+      "Immortal Shieldbow",
+      "Maw of Malmortius",
+      "Seraph's Embrace",
+      "Sterak's Gage"
+   ],
+   "Quicksilver": ["Mercurial Scimitar", "Silvermere Dawn"]
+}

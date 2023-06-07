@@ -1,6 +1,16 @@
 const championsData = require("./champion.json").data;
 const itemsData = require("./items.json").data;
+const groupItem = require("./group-item.json");
+const damageTag = require("./damage-tag.json");
 const fs = require("fs");
+const findGroupItem = (itemName) => {
+   const groupsName = [];
+   for (const [groupName, items] of Object.entries(groupItem)) {
+      if (items.includes(itemName)) groupsName.push(groupName);
+   }
+   if (groupsName.length) return groupsName;
+   return null;
+};
 const run = async () => {
    //api champions http://ddragon.leagueoflegends.com/cdn/13.11.1/data/en_US/champion.json
    //api item champion http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Aatrox.png
@@ -12,6 +22,7 @@ const run = async () => {
                championName,
                {
                   image: { full },
+                  stats: { attackrange },
                   key,
                },
             ]) => {
@@ -19,6 +30,8 @@ const run = async () => {
                   championName,
                   image: `http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/${full}`,
                   id: key,
+                  isMelee: attackrange <= 200,
+                  isRange: attackrange > 200,
                };
             }
          )
@@ -38,7 +51,7 @@ const run = async () => {
                      from?.length &&
                      from.includes("1001"))
             )
-            .map(([imageCode, { description, name, from }]) => {
+            .map(([imageCode, { description, name, from, tags }]) => {
                const isBoots = (from && from.includes("1001")) || false;
                const isLegendary =
                   description.includes(
@@ -50,6 +63,10 @@ const run = async () => {
                   isBoots,
                   isLegendary,
                   id: imageCode,
+                  groupName: findGroupItem(name),
+                  isNoDamage: !(
+                     tags.includes(damageTag[0]) || tags.includes(damageTag[1])
+                  ),
                };
             })
             .sort((a, b) => b.isLegendary - a.isLegendary)

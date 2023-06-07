@@ -2,816 +2,1142 @@
    {
       "championName": "Aatrox",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Aatrox.png",
-      "id": "266"
+      "id": "266",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Ahri",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Ahri.png",
-      "id": "103"
+      "id": "103",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Akali",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Akali.png",
-      "id": "84"
+      "id": "84",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Akshan",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Akshan.png",
-      "id": "166"
+      "id": "166",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Alistar",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Alistar.png",
-      "id": "12"
+      "id": "12",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Amumu",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Amumu.png",
-      "id": "32"
+      "id": "32",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Anivia",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Anivia.png",
-      "id": "34"
+      "id": "34",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Annie",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Annie.png",
-      "id": "1"
+      "id": "1",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Aphelios",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Aphelios.png",
-      "id": "523"
+      "id": "523",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Ashe",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Ashe.png",
-      "id": "22"
+      "id": "22",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "AurelionSol",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/AurelionSol.png",
-      "id": "136"
+      "id": "136",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Azir",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Azir.png",
-      "id": "268"
+      "id": "268",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Bard",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Bard.png",
-      "id": "432"
+      "id": "432",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Belveth",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Belveth.png",
-      "id": "200"
+      "id": "200",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Blitzcrank",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Blitzcrank.png",
-      "id": "53"
+      "id": "53",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Brand",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Brand.png",
-      "id": "63"
+      "id": "63",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Braum",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Braum.png",
-      "id": "201"
+      "id": "201",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Caitlyn",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Caitlyn.png",
-      "id": "51"
+      "id": "51",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Camille",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Camille.png",
-      "id": "164"
+      "id": "164",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Cassiopeia",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Cassiopeia.png",
-      "id": "69"
+      "id": "69",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Chogath",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Chogath.png",
-      "id": "31"
+      "id": "31",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Corki",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Corki.png",
-      "id": "42"
+      "id": "42",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Darius",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Darius.png",
-      "id": "122"
+      "id": "122",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Diana",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Diana.png",
-      "id": "131"
+      "id": "131",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Draven",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Draven.png",
-      "id": "119"
+      "id": "119",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "DrMundo",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/DrMundo.png",
-      "id": "36"
+      "id": "36",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Ekko",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Ekko.png",
-      "id": "245"
+      "id": "245",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Elise",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Elise.png",
-      "id": "60"
+      "id": "60",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Evelynn",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Evelynn.png",
-      "id": "28"
+      "id": "28",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Ezreal",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Ezreal.png",
-      "id": "81"
+      "id": "81",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Fiddlesticks",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Fiddlesticks.png",
-      "id": "9"
+      "id": "9",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Fiora",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Fiora.png",
-      "id": "114"
+      "id": "114",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Fizz",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Fizz.png",
-      "id": "105"
+      "id": "105",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Galio",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Galio.png",
-      "id": "3"
+      "id": "3",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Gangplank",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Gangplank.png",
-      "id": "41"
+      "id": "41",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Garen",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Garen.png",
-      "id": "86"
+      "id": "86",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Gnar",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Gnar.png",
-      "id": "150"
+      "id": "150",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Gragas",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Gragas.png",
-      "id": "79"
+      "id": "79",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Graves",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Graves.png",
-      "id": "104"
+      "id": "104",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Gwen",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Gwen.png",
-      "id": "887"
+      "id": "887",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Hecarim",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Hecarim.png",
-      "id": "120"
+      "id": "120",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Heimerdinger",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Heimerdinger.png",
-      "id": "74"
+      "id": "74",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Illaoi",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Illaoi.png",
-      "id": "420"
+      "id": "420",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Irelia",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Irelia.png",
-      "id": "39"
+      "id": "39",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Ivern",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Ivern.png",
-      "id": "427"
+      "id": "427",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Janna",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Janna.png",
-      "id": "40"
+      "id": "40",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "JarvanIV",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/JarvanIV.png",
-      "id": "59"
+      "id": "59",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Jax",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Jax.png",
-      "id": "24"
+      "id": "24",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Jayce",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Jayce.png",
-      "id": "126"
+      "id": "126",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Jhin",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Jhin.png",
-      "id": "202"
+      "id": "202",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Jinx",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Jinx.png",
-      "id": "222"
+      "id": "222",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Kaisa",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Kaisa.png",
-      "id": "145"
+      "id": "145",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Kalista",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Kalista.png",
-      "id": "429"
+      "id": "429",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Karma",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Karma.png",
-      "id": "43"
+      "id": "43",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Karthus",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Karthus.png",
-      "id": "30"
+      "id": "30",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Kassadin",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Kassadin.png",
-      "id": "38"
+      "id": "38",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Katarina",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Katarina.png",
-      "id": "55"
+      "id": "55",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Kayle",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Kayle.png",
-      "id": "10"
+      "id": "10",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Kayn",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Kayn.png",
-      "id": "141"
+      "id": "141",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Kennen",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Kennen.png",
-      "id": "85"
+      "id": "85",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Khazix",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Khazix.png",
-      "id": "121"
+      "id": "121",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Kindred",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Kindred.png",
-      "id": "203"
+      "id": "203",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Kled",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Kled.png",
-      "id": "240"
+      "id": "240",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "KogMaw",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/KogMaw.png",
-      "id": "96"
+      "id": "96",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "KSante",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/KSante.png",
-      "id": "897"
+      "id": "897",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Leblanc",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Leblanc.png",
-      "id": "7"
+      "id": "7",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "LeeSin",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/LeeSin.png",
-      "id": "64"
+      "id": "64",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Leona",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Leona.png",
-      "id": "89"
+      "id": "89",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Lillia",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Lillia.png",
-      "id": "876"
+      "id": "876",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Lissandra",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Lissandra.png",
-      "id": "127"
+      "id": "127",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Lucian",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Lucian.png",
-      "id": "236"
+      "id": "236",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Lulu",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Lulu.png",
-      "id": "117"
+      "id": "117",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Lux",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Lux.png",
-      "id": "99"
+      "id": "99",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Malphite",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Malphite.png",
-      "id": "54"
+      "id": "54",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Malzahar",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Malzahar.png",
-      "id": "90"
+      "id": "90",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Maokai",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Maokai.png",
-      "id": "57"
+      "id": "57",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "MasterYi",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/MasterYi.png",
-      "id": "11"
+      "id": "11",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Milio",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Milio.png",
-      "id": "902"
+      "id": "902",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "MissFortune",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/MissFortune.png",
-      "id": "21"
+      "id": "21",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "MonkeyKing",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/MonkeyKing.png",
-      "id": "62"
+      "id": "62",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Mordekaiser",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Mordekaiser.png",
-      "id": "82"
+      "id": "82",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Morgana",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Morgana.png",
-      "id": "25"
+      "id": "25",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Nami",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Nami.png",
-      "id": "267"
+      "id": "267",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Nasus",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Nasus.png",
-      "id": "75"
+      "id": "75",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Nautilus",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Nautilus.png",
-      "id": "111"
+      "id": "111",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Neeko",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Neeko.png",
-      "id": "518"
+      "id": "518",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Nidalee",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Nidalee.png",
-      "id": "76"
+      "id": "76",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Nilah",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Nilah.png",
-      "id": "895"
+      "id": "895",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Nocturne",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Nocturne.png",
-      "id": "56"
+      "id": "56",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Nunu",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Nunu.png",
-      "id": "20"
+      "id": "20",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Olaf",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Olaf.png",
-      "id": "2"
+      "id": "2",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Orianna",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Orianna.png",
-      "id": "61"
+      "id": "61",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Ornn",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Ornn.png",
-      "id": "516"
+      "id": "516",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Pantheon",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Pantheon.png",
-      "id": "80"
+      "id": "80",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Poppy",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Poppy.png",
-      "id": "78"
+      "id": "78",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Pyke",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Pyke.png",
-      "id": "555"
+      "id": "555",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Qiyana",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Qiyana.png",
-      "id": "246"
+      "id": "246",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Quinn",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Quinn.png",
-      "id": "133"
+      "id": "133",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Rakan",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Rakan.png",
-      "id": "497"
+      "id": "497",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Rammus",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Rammus.png",
-      "id": "33"
+      "id": "33",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "RekSai",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/RekSai.png",
-      "id": "421"
+      "id": "421",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Rell",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Rell.png",
-      "id": "526"
+      "id": "526",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Renata",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Renata.png",
-      "id": "888"
+      "id": "888",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Renekton",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Renekton.png",
-      "id": "58"
+      "id": "58",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Rengar",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Rengar.png",
-      "id": "107"
+      "id": "107",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Riven",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Riven.png",
-      "id": "92"
+      "id": "92",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Rumble",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Rumble.png",
-      "id": "68"
+      "id": "68",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Ryze",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Ryze.png",
-      "id": "13"
+      "id": "13",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Samira",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Samira.png",
-      "id": "360"
+      "id": "360",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Sejuani",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Sejuani.png",
-      "id": "113"
+      "id": "113",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Senna",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Senna.png",
-      "id": "235"
+      "id": "235",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Seraphine",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Seraphine.png",
-      "id": "147"
+      "id": "147",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Sett",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Sett.png",
-      "id": "875"
+      "id": "875",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Shaco",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Shaco.png",
-      "id": "35"
+      "id": "35",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Shen",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Shen.png",
-      "id": "98"
+      "id": "98",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Shyvana",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Shyvana.png",
-      "id": "102"
+      "id": "102",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Singed",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Singed.png",
-      "id": "27"
+      "id": "27",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Sion",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Sion.png",
-      "id": "14"
+      "id": "14",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Sivir",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Sivir.png",
-      "id": "15"
+      "id": "15",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Skarner",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Skarner.png",
-      "id": "72"
+      "id": "72",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Sona",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Sona.png",
-      "id": "37"
+      "id": "37",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Soraka",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Soraka.png",
-      "id": "16"
+      "id": "16",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Swain",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Swain.png",
-      "id": "50"
+      "id": "50",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Sylas",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Sylas.png",
-      "id": "517"
+      "id": "517",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Syndra",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Syndra.png",
-      "id": "134"
+      "id": "134",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "TahmKench",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/TahmKench.png",
-      "id": "223"
+      "id": "223",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Taliyah",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Taliyah.png",
-      "id": "163"
+      "id": "163",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Talon",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Talon.png",
-      "id": "91"
+      "id": "91",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Taric",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Taric.png",
-      "id": "44"
+      "id": "44",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Teemo",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Teemo.png",
-      "id": "17"
+      "id": "17",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Thresh",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Thresh.png",
-      "id": "412"
+      "id": "412",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Tristana",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Tristana.png",
-      "id": "18"
+      "id": "18",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Trundle",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Trundle.png",
-      "id": "48"
+      "id": "48",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Tryndamere",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Tryndamere.png",
-      "id": "23"
+      "id": "23",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "TwistedFate",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/TwistedFate.png",
-      "id": "4"
+      "id": "4",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Twitch",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Twitch.png",
-      "id": "29"
+      "id": "29",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Udyr",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Udyr.png",
-      "id": "77"
+      "id": "77",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Urgot",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Urgot.png",
-      "id": "6"
+      "id": "6",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Varus",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Varus.png",
-      "id": "110"
+      "id": "110",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Vayne",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Vayne.png",
-      "id": "67"
+      "id": "67",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Veigar",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Veigar.png",
-      "id": "45"
+      "id": "45",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Velkoz",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Velkoz.png",
-      "id": "161"
+      "id": "161",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Vex",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Vex.png",
-      "id": "711"
+      "id": "711",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Vi",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Vi.png",
-      "id": "254"
+      "id": "254",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Viego",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Viego.png",
-      "id": "234"
+      "id": "234",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Viktor",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Viktor.png",
-      "id": "112"
+      "id": "112",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Vladimir",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Vladimir.png",
-      "id": "8"
+      "id": "8",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Volibear",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Volibear.png",
-      "id": "106"
+      "id": "106",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Warwick",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Warwick.png",
-      "id": "19"
+      "id": "19",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Xayah",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Xayah.png",
-      "id": "498"
+      "id": "498",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Xerath",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Xerath.png",
-      "id": "101"
+      "id": "101",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "XinZhao",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/XinZhao.png",
-      "id": "5"
+      "id": "5",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Yasuo",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Yasuo.png",
-      "id": "157"
+      "id": "157",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Yone",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Yone.png",
-      "id": "777"
+      "id": "777",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Yorick",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Yorick.png",
-      "id": "83"
+      "id": "83",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Yuumi",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Yuumi.png",
-      "id": "350"
+      "id": "350",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Zac",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Zac.png",
-      "id": "154"
+      "id": "154",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Zed",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Zed.png",
-      "id": "238"
+      "id": "238",
+      "isMelee": true,
+      "isRange": false
    },
    {
       "championName": "Zeri",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Zeri.png",
-      "id": "221"
+      "id": "221",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Ziggs",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Ziggs.png",
-      "id": "115"
+      "id": "115",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Zilean",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Zilean.png",
-      "id": "26"
+      "id": "26",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Zoe",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Zoe.png",
-      "id": "142"
+      "id": "142",
+      "isMelee": false,
+      "isRange": true
    },
    {
       "championName": "Zyra",
       "image": "http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Zyra.png",
-      "id": "143"
+      "id": "143",
+      "isMelee": false,
+      "isRange": true
    }
 ]
