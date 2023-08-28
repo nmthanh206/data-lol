@@ -21,8 +21,8 @@ const checkTankItem = (itemTag) => {
    return true;
 };
 const run = async () => {
-   //api champions http://ddragon.leagueoflegends.com/cdn/13.11.1/data/en_US/champion.json
-   //api item champion http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/Aatrox.png
+   //api champions http://ddragon.leagueoflegends.com/cdn/13.6.1/data/en_US/champion.json
+   //api item champion http://ddragon.leagueoflegends.com/cdn/13.6.1/img/champion/Aatrox.png
    await fs.promises.writeFile(
       "convert-champion.json",
       JSON.stringify(
@@ -37,7 +37,7 @@ const run = async () => {
             ]) => {
                return {
                   championName,
-                  image: `http://ddragon.leagueoflegends.com/cdn/13.11.1/img/champion/${full}`,
+                  image: `http://ddragon.leagueoflegends.com/cdn/13.6.1/img/champion/${full}`,
                   id: key,
                   isMelee: attackrange <= 200,
                   isRange: attackrange > 200,
@@ -46,8 +46,8 @@ const run = async () => {
          )
       )
    );
-   //api items http://ddragon.leagueoflegends.com/cdn/13.11.1/data/en_US/item.json
-   //api item image http://ddragon.leagueoflegends.com/cdn/13.11.1/img/item/1001.png
+   //api items http://ddragon.leagueoflegends.com/cdn/13.6.1/data/en_US/item.json
+   //api item image http://ddragon.leagueoflegends.com/cdn/13.6.1/img/item/1001.png
    await fs.promises.writeFile(
       "convert-items.json",
       JSON.stringify(
@@ -68,7 +68,7 @@ const run = async () => {
                   ) || false;
                return {
                   itemName: name,
-                  image: `https://ddragon.leagueoflegends.com/cdn/13.11.1/img/item/${imageCode}.png`,
+                  image: `https://ddragon.leagueoflegends.com/cdn/13.6.1/img/item/${imageCode}.png`,
                   isBoots,
                   isLegendary,
                   id: imageCode,
